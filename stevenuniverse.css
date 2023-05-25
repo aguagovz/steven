@@ -1,0 +1,110 @@
+/*body {
+    text-align: center;
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+}*/
+
+body {
+    margin: 50px 100px;
+    padding: 50px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+}
+
+nav {
+    height: 80px;
+	background-color: rgb(236, 79, 79);
+	padding: 0 20px;
+	display: flex;
+    width: 750px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin: 40px auto 0;
+}
+
+.generic-article {
+    margin: 50px 100px;
+    padding: 50px;
+    width: 750px;
+    border-radius: 20px;
+}
+
+.red-background {
+    /*ojo con la transparencia */
+    background-color: rgba(245, 0, 0, 0.25);
+    border: 5px solid rgba(245, 91, 91, 0.664);
+}
+
+.img-red-border {
+    border: 2px solid rgba(245, 91, 91, 0.664);
+}
+
+.orange-background {
+    background-color: rgba(252, 135, 26, 25%);
+    border: 5px solid rgb(241, 139, 23, 0.664);
+}
+
+.img-orange-border {
+    border: 2px solid rgb(241, 139, 23, 0.664);
+}
+
+.yellow-background {
+    background-color: rgba(250, 217, 29, 0.25);
+    border: 5px solid rgba(255, 208, 0, 0.849);
+}
+
+.img-yellow-border {
+    border: 2px solid rgba(255, 208, 0, 0.849);
+}
+
+.green-background {
+    background-color: rgba(56, 124, 59, 0.25);
+    border: 5px solid rgba(26, 143, 26, 0.596);
+   
+}
+
+.img-green-border {
+    border: 2px solid rgba(26, 143, 26, 0.596);
+}
+
+.blue-background {
+    background-color: rgba(43, 154, 218, 0.25);
+    border: 5px solid rgba(52, 166, 231, 0.733);
+
+}
+
+.img-blue-border {
+    border: 2px solid rgba(52, 166, 231, 0.733);
+}
+
+.violet-background {
+    background-color: rgba(178, 19, 218, 0.25);
+    border: 5px solid  rgba(149, 24, 180, 0.61);
+
+}
+
+.img-violet-border {
+    border: 2px solid rgba(149, 24, 180, 0.61);
+}
+
+.pink-background {
+    background-color: rgba(255, 30, 244, 0.25);
+    border: 5px solid  rgba(206, 27, 197, 0.548);
+
+}
+
+.img-pink-border {
+    border: 2px solid  rgba(206, 27, 197, 0.548);
+}
